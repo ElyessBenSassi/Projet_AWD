@@ -20,11 +20,13 @@ public class Order {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String productName;
+    private String orderDescription;
 
-    private Integer quantity;
+    private Double totalPrice;
 
-    private Double price;
+    private Integer nbrItems;
+
+    private String listProducts;
 
     private Long buyerId;
 
